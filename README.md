@@ -2,6 +2,8 @@
 
 Create-react-app based template for quick website development
 
+Demo[https://shkredovdmitriy.github.io/ds-react18-starter/]
+
 #### Libraries
 
 - React 18
