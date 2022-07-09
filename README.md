@@ -12,10 +12,11 @@ Create-react-app based template for quick website development
 
 ```
 build/                # build files
+public/               # static files
 src
-  |_ blocks/         # header, footer, section
-  |_ components/     # nav, ul
-  |_ elements/       # a, span, button
+  |_ blocks/          # header, footer, section
+  |_ components/      # nav, ul
+  |_ elements/        # a, span, button
 ```
 
 ## Installation
