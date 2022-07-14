@@ -1,17 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { store } from './app/store';
+import { Provider } from 'react-redux';
 import './styles/scss/main.scss';
-import Header from './blocks/header/header';
-import Content from './blocks/content/content';
-import Footer from './blocks/footer/footer';
+import Header from './blocks/header';
+import Content from './blocks/content';
+import Footer from './blocks/footer';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root') as Element);
 root.render(
   <React.StrictMode>
-    <Header/>
-    <Content/>
-    <Footer/>
+    <Provider store={store}>
+      <Header/>
+      <Content/>
+      <Footer/>
+    </Provider>
   </React.StrictMode>
 );
 

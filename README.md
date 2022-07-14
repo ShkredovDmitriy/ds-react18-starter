@@ -7,6 +7,7 @@ Create-react-app based template for quick website development
 #### Libraries
 
 - React 18
+- Redux Toolkit
 - Typescript
 - SCSS
 
